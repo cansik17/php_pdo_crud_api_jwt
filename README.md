@@ -1,7 +1,10 @@
 ﻿# php_pdo_crud_api_jwt
+ 
 * A rest api with jwt auth ( made with https://github.com/firebase/php-jwt )
 * You can test with https://www.postman.com/downloads/ 
-* 
+
+ # routes
+
 * Method "POST" , http://your-domain.com/api/register.php  -------->>>   Create a new user
 * Method "POST" , http://your-domain.com/api/login.php  -------->>>  Login and take the token (default time 1 hour )
 * Method "GET"  , http://your-domain.com/api/index.php  -------->>>  Use Token
